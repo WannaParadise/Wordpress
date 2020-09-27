@@ -1,0 +1,40 @@
+2020-09-02T15:37:55+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в D:\OSPanel\domains\wordpress\wp-includes\class.wp-dependencies.php на строке 253
+
+2020-09-02T15:41:11+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в D:\OSPanel\domains\wordpress\wp-includes\plugin.php на строке 182
+
+2020-09-02T15:49:22+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в D:\OSPanel\domains\wordpress\wp-includes\functions.wp-scripts.php на строке 200
+
+2020-09-02T16:13:22+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в D:\OSPanel\domains\wordpress\wp-includes\class.wp-dependencies.php на строке 253
+
+2020-09-02T16:15:11+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в D:\OSPanel\domains\wordpress\wp-includes\functions.wp-scripts.php на строке 200
+
+2020-09-02T16:18:30+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в D:\OSPanel\domains\wordpress\wp-includes\plugin.php на строке 184
+
+2020-09-02T16:21:24+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 13
+
+2020-09-02T16:23:15+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 13
+
+2020-09-02T16:23:16+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 13
+
+2020-09-02T16:23:24+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 13
+
+2020-09-02T16:23:31+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 13
+
+2020-09-02T16:23:31+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 13
+
+2020-09-02T16:23:42+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 7
+
+2020-09-02T16:23:43+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 7
+
+2020-09-02T16:23:44+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 7
+
+2020-09-02T16:23:46+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 7
+
+2020-09-02T16:23:46+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 7
+
+2020-09-02T16:24:16+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 18
+
+2020-09-02T16:24:17+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 18
+
+2020-09-02T16:24:25+00:00 CRITICAL require(): Failed opening required 'D:\OSPanel\domains\wordpress/wp-content/themes/lesson/option-tree/ot-loader.php' (include_path='.') в D:\OSPanel\domains\wordpress\wp-content\themes\lesson\functions.php на строке 18
+
