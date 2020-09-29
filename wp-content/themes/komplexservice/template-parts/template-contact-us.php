@@ -63,7 +63,8 @@ get_header();
 					<div class="form">
 				<div class="row">
                                     <p class="success" id="success" style="display:none;"></p>
-                                    <p class="error" id="error" style="display:none;"></p>
+									<p class="error" id="error" style="display:none;"></p>
+									<?php do_shortcode('[contact-form-7 id="51" title="Контактная форма 1"]');?>
                 <form name="contact_form" id="contact_form" method="post" action="#" onSubmit="return false">
 					<div class="col-md-4"><input type="text" data-delay="300" placeholder="Ваше ФИО" name="contact_name" id="contact_name" class="input"></div>
 					<div class="col-md-4"><input type="text" data-delay="300" placeholder="Ваш E-mail" name="contact_email" id="contact_email" class="input"></div>
@@ -88,8 +89,8 @@ get_header();
 					
 					<div class="get-in-touch">
 					<div class="detail">
-						<span><b>Телефон:</b> +375 (29) 604-44-14</span>
-						<span><b>Email:</b> <a href="#."> info@remont.by</a></span>
+						<span><b>Телефон:</b> <?php echo $redux_demo['Phone']; ?></span>
+						<span><b>Email:</b> <a href="#."> <?php echo $redux_demo['Email']; ?></a></span>
 						<span><b>Сайт:</b> <a href="#.">www.remont.by</a></span>
 						<span><b>Адрес:</b> 220000, Минская обл., Минский р-н,  д..Дворицкая Слобода, пом.9</span>
 					 </div>

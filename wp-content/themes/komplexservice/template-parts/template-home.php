@@ -61,7 +61,7 @@ get_header();
 			data-endspeed="300"
 			style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">	
 
-ОБСЛУЖИВАНИЕ 
+			<?php the_field('slider_title_1')?> 
 		</div>
         
         <div class="tp-caption small-title tp-resizeme rs-parallaxlevel-0 fade start"
@@ -75,7 +75,7 @@ get_header();
 			data-elementdelay="0.1"
 			data-endelementdelay="0.1"
 			data-endspeed="300"
-			style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">холодильных установок 
+			style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;"><?php the_field('slider_description_1')?> 
 		</div>
 
 		<div class="tp-caption paragraph tp-resizeme rs-parallaxlevel-0 fade start"
@@ -89,7 +89,7 @@ get_header();
 			data-elementdelay="0.05"
 			data-endelementdelay="0.1"
 			data-endspeed="300"
-			style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><div style="text-align:left;">Мы используем только оригинальные запчасти и компоненты. <br> Мы готовы предложить более низкие цены на услуги.</div>
+			style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><div style="text-align:left;"><?php the_field('slider_text_1')?></div>
 		</div>
 		
 		
@@ -105,7 +105,7 @@ get_header();
 			data-endelementdelay="0.1"
 			data-endspeed="300"
 			style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap; border-radius: 5px;"><div style="text-align:left; background:#525866; border-radius: 5px;">
-			<a href="services2.html" class="read-more" style=" line-height: initial; color: #fff; text-transform: uppercase; font-weight: 500; padding: 12px 36px; display: inline-block; font-size: 18px; ">подробнее</a>
+			<a href="services2.html" class="read-more" style=" line-height: initial; color: #fff; text-transform: uppercase; font-weight: 500; padding: 12px 36px; display: inline-block; font-size: 18px; "><?php the_field('slider_button_1')?></a>
 			</div>
 		</div>
 		

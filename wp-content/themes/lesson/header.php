@@ -7,24 +7,6 @@
 	<meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="icon" type="image/png" href="images/favicon-medical.png">
-	
-   
-	<link href="medical-guide" rel="stylesheet" type="text/css">
-	<link href="medical-guide.icons" rel="stylesheet" type="text/css">
-	<link href="css/default-color.css" rel="stylesheet" id="color"  type="text/css">
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="css/dropmenu.css" rel="stylesheet" type="text/css">
-	<link href="css/sticky-header.css" rel="stylesheet" type="text/css">
-	<link href="css/style.css" rel="stylesheet" type="text/css">    
-    <link href="css/settings.css" rel="stylesheet" type="text/css">    
-    <link href="css/extralayers.css" rel="stylesheet" type="text/css">    
-    <link href="css/accordion.css" rel="stylesheet" type="text/css">
-	<link href="css/tabs.css" rel="stylesheet" type="text/css">    
-	<link href="css/owl.carousel.css" rel="stylesheet" type="text/css">    
-	<link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css" />
-	<link rel="stylesheet" type="text/css" href="css/demo.css" />
-	<link href="css/loader.css" rel="stylesheet" type="text/css">   
 </head>
 <body <?php body_class(); ?>>
 <div id="page" class="site page">

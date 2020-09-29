@@ -170,7 +170,7 @@ function komplexservice_scripts() {
 	}
 
 	add_action( 'init', 'true_jquery_register' );
-
+/*
 	wp_enqueue_script( 'jquery',get_template_directory_uri().'/assets/js/jquery.js',null, null, true );
 
 	wp_enqueue_script( 'scroll-desktop',get_template_directory_uri().'/assets/js/scroll-desktop.js',null, null, true );
@@ -193,7 +193,9 @@ function komplexservice_scripts() {
 
 	wp_enqueue_script( 'slider',get_template_directory_uri().'/assets/js/slider.js',null,null, true );
 	wp_enqueue_script( 'custom',get_template_directory_uri().'/assets/js/custom.js',null, null, true );
-}
+
+
+*/}
 add_action( 'wp_enqueue_scripts', 'komplexservice_scripts' );
 
 /**
@@ -215,6 +217,7 @@ require get_template_directory() . '/inc/template-functions.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+require get_template_directory() . '/inc/sample-config.php';
 
 /**
  * Load Jetpack compatibility file.
@@ -223,3 +226,34 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+add_action('init', 'custom_post_init');
+function custom_post_init(){
+
+    register_post_type('news', array(
+        'labels'             => array(
+            'name'               => 'Посты', // Основное название типа записи
+            'singular_name'      => 'Пост', // отдельное название записи типа News
+            'add_new'            => 'Добавить новый',
+            'add_new_item'       => 'Добавить новый пост',
+            'edit_item'          => 'Редактировать пост',
+            'new_item'           => 'Новая пост',
+            'view_item'          => 'Посмотреть ',
+            'search_items'       => 'Найти пост',
+            'not_found'          =>  'Пост не найден',
+            'not_found_in_trash' => 'В корзине пост не найден',
+            'parent_item_colon'  => '',
+            'menu_name'          => 'Пост'
+
+          ),
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => true,
+        'capability_type'    => 'post',
+        'has_archive'        => true,
+        'hierarchical'       => false,
+        'menu_position'      => null,
+        'supports'           => array('title','editor','author','thumbnail','excerpt','comments')
+    ) );}

@@ -87,8 +87,10 @@ function lesson_style(){
 	wp_enqueue_style('jquery.mmenu.all',get_template_directory_uri().'/css/jquery.mmenu.all.css');
 	wp_enqueue_style('demo',get_template_directory_uri().'/css/demo.css');
 	wp_enqueue_style('loader',get_template_directory_uri().'/css/loader.css');
+	wp_enqueue_scripts('$handle', '$src', array('jquery'),false,false);
 }
-add_action( 'wp_enqueue_style', 'lesson_style' );
+
+add_action( 'wp_enqueue_scripts', 'lesson_style' );
 
 
 

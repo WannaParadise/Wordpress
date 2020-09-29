@@ -8,8 +8,8 @@
  *
  * @package KomplexService
  */
-
 ?>
+<?php global $redux_demo; ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -66,8 +66,8 @@
                 	<div class="get-touch">
                     	
 						<ul>
-                        <li><a><i class="icon-phone4"></i> +375 (29) 604-44-14</a></li>
-                        <li><a href="#."><i class="icon-mail"></i> info@remont.by</a></li>
+                        <li><a><i class="icon-phone4"></i> <?php echo $redux_demo['Phone']; ?></a></li>
+                        <li><a href="#."><i class="icon-mail"></i> <?php echo $redux_demo['Email']; ?></a></li>
 						</ul>
 						
                         <ul  class="social-icons">

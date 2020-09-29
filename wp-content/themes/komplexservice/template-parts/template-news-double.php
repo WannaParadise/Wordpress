@@ -6,7 +6,7 @@ get_header();
 
 <div class="sub-banner">
    
-   <img class="banner-img" src="images/sub-banner.jpg" alt="">
+   <img class="banner-img" src="<?php echo get_template_directory_uri();?>/assets/images/sub-banner.jpg" alt="">
 <div class="detail">
     <div class="container">
         <div class="row">
@@ -37,117 +37,33 @@ get_header();
     <div class="news-posts">
         <div class="container">
             <div class="row">
-                
+            <?php $args = array(
+                                'post_type'     => 'news',
+                                'post_per_page' => -1,
+
+                            );
+                            $news = new WP_Query( $args );?>
+
+                            <?php
+                                    while ( $news->have_posts() ) :
+                                        $news->the_post();?>
                 <div class="col-md-6">
                         <div class="news-sec">
-                            <img src="images/blog/doble-bar/post-img1.jpg" alt="">
+                            <img src="<?php the_post_thumbnail('medium');?>
                             <div class="detail">
-                                <span>05.04.2020</span>
-                                <h3>Research Center</h3>
-                                <p>Немного об автономных воздушных отопителях (фенах, печках, автономках)...Немного об автономных воздушных отопителях (фенах, печках, автономках)...</p>
-                                <a href="news-detail.html" class="read-more">подробнее</a>
+                                <span><?php the_date();?></span>
+                                <h3><?php the_title(); ?></h3>
+                                <p><?php the_excerpt(); ?></p>
+                                <a href="<?php the_permalink(); ?>" class="read-more">подробнее</a>
                             </div>
                         </div>
                 </div>
+
+
+                              <?php
+                                    endwhile; // End of the loop.
+                                    ?>
                 
-                
-                <div class="col-md-6">
-                        <div class="news-sec">
-                            <img src="images/blog/doble-bar/post-img1.jpg" alt="">
-                            <div class="detail">
-                                <span>05.04.2020</span>
-                                <h3>Research Center</h3>
-                                <p>Немного об автономных воздушных отопителях (фенах, печках, автономках)...Немного об автономных воздушных отопителях (фенах, печках, автономках)...</p>
-                                <a href="news-detail.html" class="read-more">подробнее</a>
-                            </div>
-                        </div>
-                </div>
-                
-                <div class="col-md-6">
-                        <div class="news-sec">
-                            <img src="images/blog/doble-bar/post-img1.jpg" alt="">
-                            <div class="detail">
-                                <span>05.04.2020</span>
-                                <h3>Research Center</h3>
-                                <p>Немного об автономных воздушных отопителях (фенах, печках, автономках)...Немного об автономных воздушных отопителях (фенах, печках, автономках)...</p>
-                                <a href="news-detail.html" class="read-more">подробнее</a>
-                            </div>
-                        </div>
-                </div>
-                
-                <div class="col-md-6">
-                        <div class="news-sec">
-                            <img src="images/blog/doble-bar/post-img1.jpg" alt="">
-                            <div class="detail">
-                                <span>05.04.2020</span>
-                                <h3>Research Center</h3>
-                                <p>Немного об автономных воздушных отопителях (фенах, печках, автономках)...Немного об автономных воздушных отопителях (фенах, печках, автономках)...</p>
-                                <a href="news-detail.html" class="read-more">подробнее</a>
-                            </div>
-                        </div>
-                </div>
-                
-                
-                <div class="col-md-6">
-                        <div class="news-sec">
-                            <img src="images/blog/doble-bar/post-img1.jpg" alt="">
-                            <div class="detail">
-                                <span>05.04.2020</span>
-                                <h3>Research Center</h3>
-                                <p>Немного об автономных воздушных отопителях (фенах, печках, автономках)...Немного об автономных воздушных отопителях (фенах, печках, автономках)...</p>
-                                <a href="news-detail.html" class="read-more">подробнее</a>
-                            </div>
-                        </div>
-                </div>
-                
-                <div class="col-md-6">
-                        <div class="news-sec">
-                            <img src="images/blog/doble-bar/post-img1.jpg" alt="">
-                            <div class="detail">
-                                <span>05.04.2020</span>
-                                <h3>Research Center</h3>
-                                <p>Немного об автономных воздушных отопителях (фенах, печках, автономках)...Немного об автономных воздушных отопителях (фенах, печках, автономках)...</p>
-                                <a href="news-detail.html" class="read-more">подробнее</a>
-                            </div>
-                        </div>
-                </div>
-                
-                <div class="col-md-6">
-                        <div class="news-sec">
-                            <img src="images/blog/doble-bar/post-img1.jpg" alt="">
-                            <div class="detail">
-                                <span>05.04.2020</span>
-                                <h3>Research Center</h3>
-                                <p>Немного об автономных воздушных отопителях (фенах, печках, автономках)...Немного об автономных воздушных отопителях (фенах, печках, автономках)...</p>
-                                <a href="news-detail.html" class="read-more">подробнее</a>
-                            </div>
-                        </div>
-                </div>
-                
-                
-                <div class="col-md-6">
-                        <div class="news-sec">
-                            <img src="images/blog/doble-bar/post-img1.jpg" alt="">
-                            <div class="detail">
-                                <span>05.04.2020</span>
-                                <h3>Research Center</h3>
-                                <p>Немного об автономных воздушных отопителях (фенах, печках, автономках)...Немного об автономных воздушных отопителях (фенах, печках, автономках)...</p>
-                                <a href="news-detail.html" class="read-more">подробнее</a>
-                            </div>
-                        </div>
-                </div>
-                
-                <div class="col-md-6">
-                        <div class="news-sec">
-                            <img src="images/blog/doble-bar/post-img1.jpg" alt="">
-                            <div class="detail">
-                                <span>05.04.2020</span>
-                                <h3>Research Center</h3>
-                                <p>Немного об автономных воздушных отопителях (фенах, печках, автономках)...Немного об автономных воздушных отопителях (фенах, печках, автономках)...</p>
-                                <a href="news-detail.html" class="read-more">подробнее</a>
-                            </div>
-                        </div>
-                </div>
                 
             </div>
         </div>
